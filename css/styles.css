@@ -1,0 +1,42 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.timer {
+  width: 500px;
+  min-height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2e7ce;
+  border: 1px solid #770007;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 22px;
+  color: #770007;
+}
+
+.field .value {
+  min-height: 100px;
+  min-width: 100px;
+  padding: 1px;
+  background-color: #770007;
+  color: #edc059;
+  border-radius: 10%;
+  font-size: 45px;
+  line-height: 100px;
+}
